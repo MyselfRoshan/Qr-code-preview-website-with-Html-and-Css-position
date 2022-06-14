@@ -1,0 +1,96 @@
+*{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url(/images/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg);
+    background-size: cover;
+    
+}
+.outer-rectangle{
+    height:75vh;
+    width:190vh;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:hsl(212, 45%, 89%);
+    box-shadow: 0px 12px 12px hsla(220, 15%, 55%,0.3);
+}
+.inner-rectangle{
+    height:53vh;
+    width:35vh;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:hsl(0, 0%, 100%);
+    border-radius:4%;
+    box-shadow: 0px 12px 12px hsla(220, 15%, 55%,0.2);
+}
+
+#qr-code{
+    position:absolute;
+    border-radius:4%;
+    top:50%;
+    left:50%;
+    height:55%;
+    width: 90%;
+    transform:translate(-50%,-85%);
+    
+}
+#img-caption{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,30%);
+    text-align:center;
+    font-family:"Outfit", sans-serif;
+    min-width:100%;
+    min-height:42.5%;
+    }
+    .header{
+        font-weight:700;
+        padding:1.5rem;
+        color: hsl(218, 44%, 22%);
+        font-size:2.2rem;
+    }
+    p{
+        font-weight:400;
+        color: hsl(220, 15%, 55%);
+        font-size:1rem;
+        padding:0 1.5rem;
+    }
+
+    @media(width:1440px){
+        
+        .header{
+            font-size:3.6rem;
+            padding:3rem 3rem 2.8rem 3rem;;
+        }
+        p{
+            font-size:1.7rem;
+            padding:0 3em;
+    }
+}
+
+    @media(max-width:375px){
+        .outer-rectangle{
+            height:100%;
+            width:100%;
+        }
+
+        .header{
+            font-size:2.3rem;
+            padding:2.5rem 2.5rem 1.4rem 2.5rem;;
+        }
+        p{
+            font-size:1.1rem;
+            padding:0 2.5rem;
+        }
+    }
+
+ 
