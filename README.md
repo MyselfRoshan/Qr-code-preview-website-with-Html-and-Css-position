@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](/screenshhots/desktop-design.png)
 ![](/screenshhots/desktop-preview.png)
-![](/screenshhots/mobile-design.png)
+<p align="center">![](/screenshhots/mobile-design.png)</p>
 
 ### Links
 
