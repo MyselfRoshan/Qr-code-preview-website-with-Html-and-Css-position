@@ -9,7 +9,6 @@
     justify-content: center;
     min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
-    padding: 5.3125rem 1.6785rem;
   }
   body {
     text-rendering: optimizeSpeed;
@@ -35,12 +34,10 @@
     margin: 1.3rem 0 1rem 0;
     font-size: 1.25rem;
     color: hsl(218, 44%, 22%);
-    padding: 0;
   }
   
 p{
     color: hsl(220, 15%, 55%);
     margin-bottom: 1.5rem;
     letter-spacing: 0.013em;
-    padding: 0;
   }
