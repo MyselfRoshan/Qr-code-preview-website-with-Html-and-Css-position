@@ -3,12 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-}
-
-body{
-    background-image:url(/images/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg);
-    background-size: cover;
-    
+} 
 .outer-rectangle {
     display: flex;
     flex-direction: column;
